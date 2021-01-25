@@ -5,7 +5,7 @@ setInterval(() => {
     stime = d.getSeconds();
 
     hrotation = 30 * htmie + mtime / 2;
-    mrotation = 6 * mtime;
+    mrotation = 6 * mtime + stime/10;
     srotation = 6 * stime;
 
     hour.style.transform = `rotate(${hrotation}deg)`;
